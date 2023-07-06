@@ -88,7 +88,8 @@ static webrtc::ObjCVideoTrackSource *getObjCVideoSource(
 }
 
 - (void)adaptOutputFormatToWidth:(int)width height:(int)height fps:(int)fps {
-  getObjCVideoSource(_nativeVideoSource)->OnOutputFormatRequest(width, height, fps);
+    getObjCVideoSource(_nativeVideoSource)->OnOutputFormatRequest(width, height, fps);
+}
 
 - (void)setHandlerFrameCallback:(RTCVideoFrame* (^)(RTCVideoFrame *frame)) callback{
     _handlerFrameCallback = callback;
