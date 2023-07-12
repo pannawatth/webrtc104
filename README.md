@@ -47,4 +47,3 @@ This repository contains a fork of WebRTC from Google with various improvements.
 
 - [Membrane Framework](https://github.com/membraneframework/membrane_rtc_engine)
 
-# webrtc104
